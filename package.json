@@ -1,0 +1,28 @@
+{
+  "name": "planetapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/.bin/mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frannarvaez/PlanetAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frannarvaez/PlanetAPI/issues"
+  },
+  "homepage": "https://github.com/frannarvaez/PlanetAPI",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.12.4",
+    "morgan": "^1.6.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.15",
+    "mocha": "^2.2.5"
+  }
+}
